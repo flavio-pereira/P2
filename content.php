@@ -2,7 +2,10 @@
 
 <div class="container">
       <div class="header">
-        <h3 class="text-muted">Flavio Project Password XKCD</h3>
+        <h1 class="text-muted">CSCI-15: Flavio's Password Generator</h1>
+        <p class="lead"> The Generate Password button below will generate a random password consisting at least in four words, one number, and one symbol. 
+        	The idea is to create a strong password making it hard to guess even by brute force.
+        </p>
       </div>
 
       <div class="jumbotron">
@@ -32,13 +35,11 @@
 	</form>
 
 	</div>
-<p class='details'>
-			<a href='http://xkcd.com/936/'>xkcd password strength</a><br>
-		
-			<a href='http://xkcd.com/936/'>
-				<img class='comic' src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>
-			</a>
-			<br>
-		</p>
+	<p class='details'>		
+		<a href='http://xkcd.com/936/'>
+			<img src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>
+		</a>
+		<br>
+	</p>
 
 </div>
