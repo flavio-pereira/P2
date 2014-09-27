@@ -50,7 +50,7 @@ if ($symbol){
 
 	$symbols = "!@#$%&*-+?=";
 
-	$generated_symbols = substr(str_shuffle($symbols),1,1);
+	$generated_symbols = substr(str_shuffle($symbols),0,1);
 }
 
 //Password Outupt
