@@ -11,7 +11,7 @@
 
 	<div class="jumbotron">
       <p class="lead"> Select the options below:</p>
-	   <form method="post" action="/p2/index.php"> 
+	   <form method="post" action="index.php"> 
 	
 		 <label name="words">Number of words</label>
 		<select id="words" name="words">
