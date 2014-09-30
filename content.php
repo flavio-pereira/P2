@@ -12,7 +12,7 @@
 
       <div class="jumbotron">
       	<h2> Your password is: </h2>
-     	<h3><?php echo $password; ?></h3>
+     	<h3 class="pwd"><?php echo $password; ?></h3>
       </div>
 
 	<div class="jumbotron">

@@ -77,3 +77,12 @@ body {
     border-bottom: 0;
   }
 }
+.pwd {
+  font-family: monospace;
+
+}
+p {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 48px;
+}
