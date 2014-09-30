@@ -14,8 +14,18 @@ Form inputs to specify:
 
 Github link: https://github.com/flavio-pereira/P2
 
-P1 live URL: http://p2.pezao.me
+P2 live URL: http://p2.pezao.me
+
+### Demo Video:
+
 
 ### Outside Code:
 
 Bootstrap: http://getbootstrap.com/
+
+Jumbo CSS: http://getbootstrap.com/examples/jumbotron/
+
+### PHP Tips:
+
+FAQ [Section 3](http://cm.dce.harvard.edu/2015/01/14291/S03/index_H264SingleHighBandwidth-16x9.shtml) Presented by Nick. That session helped me to understand what the code was doing :-)
+
