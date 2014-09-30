@@ -11,24 +11,24 @@
       </div>
 
       <div class="jumbotron">
-      	<h2> Your password is: <h2>
-     	<h2><?php echo $password; ?></h2>
+      	<h2> Your password is: </h2>
+     	<h3><?php echo $password; ?></h3>
       </div>
 
 	<div class="jumbotron">
       <p class="lead"> Select the options below:</p>
 	   <form method="post" action="index.php"> 
 	
-	    <label name="words">Number of words</label>
-		<input type="number" name="words" value=<?=$count?> min=1 max=4 >(max=4)</br>
+	    <label name="words"> Number of words</label>
+		<input type="number" name="words" value=<?=$count?> min=1 max=4 >(max=4)<br />
 		
-		<label name="number">Include a number</label>
+		<label name="number"> Include a number</label>
 		<input type="checkbox" name="number" value="number"/><br />
 
-		<label name="symbol">Use a symbol</label>
+		<label name="symbol"> Use a symbol</label>
 		<input type="checkbox" name="symbol" value="symbol"/><br />
 
-		<label name="symbol">First letter Uppercase</label>
+		<label name="upper"> First letter Uppercase</label>
 		<input type="checkbox" name="upper" value="upper"/><br />
 		
 		<input type="submit" name="submit" value="Generate your Password"/>
