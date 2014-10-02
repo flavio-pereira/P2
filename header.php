@@ -1,5 +1,6 @@
 <head>
 	 <meta charset="UTF-8">
+	 <link rel="icon" type="image/icon" href="http://p2.pezao.me/images/favicon.ico">
 	 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link href="css/jumbo.css" rel="stylesheet">
 	 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
