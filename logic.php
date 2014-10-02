@@ -61,11 +61,11 @@ if ($dict = file('words-linux.txt')){
 	}
 
 // This is how to find the last word on the array_word and prepare to insert a symbol if selected by user. 
-	$last = $array_words[count($array_words) - 1];
+	$last = $array_words[count($array_words) -1];
     	
 // If number is True then it will be executed:
 	if ($number){
-		$number_max = count($symbols) - 1;
+		$number_max = count($symbols) -1;
 		$number_num = rand(0, $number_max);
 		$rand_number = $numbers[$number_num];
 		$last .= $rand_number;
@@ -73,14 +73,14 @@ if ($dict = file('words-linux.txt')){
 
 // If symbol is true then it will be executed:
 	if ($symbol){
-		$symbol_max = count($symbols) - 1;
+		$symbol_max = count($symbols) -1;
 		$symbol_num = rand(0, $symbol_max);
 		$rand_symbol = $symbols[$symbol_num];
 		$last .= $rand_symbol;
 	}
 
 //Password Outupt After check if number or symbol was added. 	
-	$array_words[count($array_words) - 1] = $last;
+	$array_words[count($array_words) -1] = $last;
 
 // Password with the options selected. It will implode the array_words
 	$password = implode('', $array_words);
