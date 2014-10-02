@@ -2,10 +2,10 @@
 
 <div class="container">
       <div class="header">
-        <h1 class="text-muted">DWA-15: Flavio's Password Generator</h1>
+        <h1 class="text-muted">DWA-15: xkdc Password Generator</h1>
         <p class="lead"> 
-        The Generate Password button below will generate a random password consisting at least in 
-        four words, one number, one symbol and one word with the first letter in uppercase.
+        The Generate Password button below will generate a random password where you can choose between one word until
+        four words, one number, one symbol and all words with the first letter in uppercase.
         The idea is to create a strong password making it hard to guess even by brute force.
         </p>
       </div>
@@ -36,7 +36,8 @@
 	</form>
 
 	</div>
-	<p class='details'>		
+	<p class='lead'>
+		This is the comic that inspired this tool. More information: <a href='http://xkcd.com/936/'>xkcd password</a>	
 		<a href='http://xkcd.com/936/'>
 			<img src='images/password_strength.png' alt='xkcd style passwords'>
 		</a>
