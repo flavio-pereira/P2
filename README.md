@@ -18,6 +18,8 @@ P2 live URL: http://p2.pezao.me
 
 ### Demo Video:
 
+Video: http://screencast.com/t/ZnKtST4n
+
 
 ### Outside Code:
 
