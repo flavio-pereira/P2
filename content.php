@@ -2,7 +2,7 @@
 
 <div class="container">
       <div class="header">
-        <h1 class="text-muted">DWA-15: xkdc Password Generator</h1>
+        <h1 class="text-muted">DWA-15: Flavio xkcd Password Generator</h1>
         <p class="lead"> 
         The Generate Password button below will generate a random password where you can choose between one word until
         four words, one number, one symbol and all words with the first letter in uppercase.
